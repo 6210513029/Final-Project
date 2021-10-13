@@ -7293,6 +7293,43 @@ h3 {
     .masthead .masthead-subheading {
       font-size: 1.5rem; } }
 
+.dog .dog-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden; }
+  .dog .dog-item .dog-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(71, 157, 164, 0.9); }
+    .dog .dog-item .dog-item-caption:hover {
+      opacity: 1; }
+    .dog .dog-item .dog-item-caption .dog-item-caption-content {
+      font-size: 1.5rem; }
+.dog-modal .dog-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem; }
+      
+@media (min-width: 992px) {
+  .dog-modal .dog-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem; } }
+      
+.dog-modal .close {
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #479da4;
+  opacity: 1; }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
